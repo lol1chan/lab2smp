@@ -1,0 +1,5 @@
+lab2smp(MemoryFragmentation)/x64/
+lab2smp(HeapTest)/x64/
+lab2smp(ReferenceTest)/x64/
+lab2smp(StackObject)/x64/
+lab2smp(ValueTest)/x64/
