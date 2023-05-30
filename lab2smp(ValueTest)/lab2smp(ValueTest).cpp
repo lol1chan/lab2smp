@@ -10,7 +10,7 @@ struct SMTH {
 
 
 
-void modifySMTH(SMTH& a) {
+void modifySMTH(SMTH a) {
     a.val = 10;
 }
 
@@ -23,7 +23,7 @@ public:
         SMTH b(5);
         modifySMTH(b);
 
-        Assert::AreEqual(b.val, 10);
+        Assert::AreEqual(b.val, 5); //бачимо, що при передачі структури за значенням, нічого не змінюється, бо ми працюємо з копією
     }
     };
 }
